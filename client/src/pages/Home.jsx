@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../componets/Navbar";
+import Hero from "../componets/Hero";
+import AiTools from "../componets/AiTools";
 
 const Home = () => {
   return (
-    <div>
-        
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <Hero />
+      <AiTools />
+    </>
+  );
+};
 
-export default Home
+export default Home;
